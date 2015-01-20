@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Contributor.aspx" />
     <Content Include="default.aspx" />
+    <Content Include="newBranchCode.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +76,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newBranchCode.aspx.cs">
+      <DependentUpon>newBranchCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newBranchCode.aspx.designer.cs">
+      <DependentUpon>newBranchCode.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
